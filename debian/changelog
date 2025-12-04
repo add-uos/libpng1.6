@@ -1,8 +1,92 @@
-libpng1.6 (1.6.45-1deepin1) unstable; urgency=medium
+libpng1.6 (1.6.52-1) unstable; urgency=medium
 
-  * Revert t64.
+  * New upstream versoin 1.6.52
+    - CVE-2025-66293 - Out of bound read (Closes: #1121877)
 
- -- Liu Yi <lhdjply@126.com>  Thur, 16 Jan 2025 17:28:30 +0800
+ -- Tobias Frost <tobi@debian.org>  Thu, 04 Dec 2025 06:24:43 +0100
+
+libpng1.6 (1.6.51-1) unstable; urgency=high
+
+  * New upstream version 1.6.51.
+    - CVE-2025-64505 - Heap buffer overflow. Closes: #1121219
+    - CVE-2025-64506 - Heap buffer overread. Closes: #1121218
+    - CVE-2025-64720 - Buffer overflow. Closes: #1121217
+    - CVE-2025-65018 - Heap buffer. Closes: #1121216
+  * Enable salsa-ci.
+  * Update d/copyright years, remove unused section.
+  * udeb: install library into usr/lib 
+
+ -- Tobias Frost <tobi@debian.org>  Mon, 24 Nov 2025 21:06:25 +0100
+
+libpng1.6 (1.6.50-1) unstable; urgency=medium
+
+  * Upload to sid
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sun, 10 Aug 2025 18:09:08 +0200
+
+libpng1.6 (1.6.50-1~exp1) experimental; urgency=medium
+
+  * New upstream version 1.6.50
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sun, 10 Aug 2025 18:08:25 +0200
+
+libpng1.6 (1.6.49-1~exp1) experimental; urgency=medium
+
+  * New upstream version 1.6.49
+  * Update copyright file
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sun, 15 Jun 2025 11:32:25 +0200
+
+libpng1.6 (1.6.48-1) unstable; urgency=medium
+
+  * New upstream version 1.6.48
+  * Ack previous NMU, thanks a lot!
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 05 May 2025 21:11:18 +0200
+
+libpng1.6 (1.6.47-1.1) unstable; urgency=high
+
+  * Non-maintainer upload.
+  * Restore dh_makeshlibs override to fix missing udeb line in shlibs.
+    (Closes: #1100477)
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Mar 2025 10:39:59 +0100
+
+libpng1.6 (1.6.47-1) unstable; urgency=medium
+
+  * New upstream version 1.6.47
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 21 Feb 2025 08:01:34 +0100
+
+libpng1.6 (1.6.46-4) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Jeremy Bícha ]
+  * Set dpkg-gensymbols check level to 4
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sat, 01 Feb 2025 18:23:23 +0100
+
+libpng1.6 (1.6.46-3) unstable; urgency=medium
+
+  * Add a symbols file for easier maintenance of the package
+    and added symbols
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Sat, 01 Feb 2025 08:12:46 +0100
+
+libpng1.6 (1.6.46-2) unstable; urgency=medium
+
+  * Bump shlibs to 1.6.45 due to gtk4 test regression in cICP
+    https://gitlab.gnome.org/GNOME/gtk/-/issues/7275
+    (Closes: #1093335)
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Fri, 31 Jan 2025 15:10:07 +0100
+
+libpng1.6 (1.6.46-1) unstable; urgency=medium
+
+  * New upstream version 1.6.46
+
+ -- Gianfranco Costamagna <locutusofborg@debian.org>  Mon, 27 Jan 2025 09:30:18 +0100
 
 libpng1.6 (1.6.45-1) unstable; urgency=medium
 
@@ -125,7 +209,7 @@ libpng1.6 (1.6.39-2) unstable; urgency=medium
 
 libpng1.6 (1.6.39-1) unstable; urgency=medium
 
-  * New upstream version 1.6.39
+  * New upstream version 1.6.39. Fixes CVE-2019-6129.
 
  -- Gianfranco Costamagna <locutusofborg@debian.org>  Sat, 26 Nov 2022 15:21:15 +0100
 
