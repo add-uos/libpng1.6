@@ -1,3 +1,9 @@
+libpng1.6 (1.6.52-1deepin1) unstable; urgency=medium
+
+  * Revert t64 suffix.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Thu, 04 Dec 2025 17:09:05 +0800
+
 libpng1.6 (1.6.52-1) unstable; urgency=medium
 
   * New upstream versoin 1.6.52
