@@ -9,7 +9,7 @@ Copyright: 1995-2025 The PNG Reference Library Authors.
 License: libpng
 
 Files: arm/*
-Copyright: 2018-2024 Cosmin Truta
+Copyright: 2018-2025 Cosmin Truta
            2017-2018 Arm Holdings. All rights reserved.
            2014,2016 Glenn Randers-Pehrson
 License: libpng
@@ -69,6 +69,10 @@ Files: contrib/oss-fuzz/Dockerfile
 Copyright: 2016 Google Inc.
 License: Apache-2.0
 
+Files: riscv/*
+Copyright: 2023 Google LLC
+License: libpng
+
 Files: debian/*
 Copyright:      2001 Philippe Troin <phil@fifi.org>
                 2002 Junichi Uekawa <dancer@debian.org>
@@ -76,7 +80,7 @@ Copyright:      2001 Philippe Troin <phil@fifi.org>
            2006-2009 Anibal Monsalve Salazar <anibal@debian.org>
            2011-2014 Nobuhiro Iwamatsu <iwamatsu@debian.org>
            2016-2025 Gianfranco Costamagna <locutusofborg@debian.org>
-           2016-2017 Tobias Frost <tobi@debian.org>
+           2016-2025 Tobias Frost <tobi@debian.org>
 License: GPL-2+
 
 License: expat
