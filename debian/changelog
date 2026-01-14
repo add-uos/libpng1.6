@@ -1,3 +1,11 @@
+libpng1.6 (1.6.53-1deepin2) unstable; urgency=medium
+
+  * Security fix from upstream:
+    - CVE-2026-22695: Heap buffer over-read in png_image_read_direct_scaled
+    - CVE-2026-22801: Integer truncation causing heap buffer over-read in png_image_write_*
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Wed, 14 Jan 2026 14:46:41 +0800
+
 libpng1.6 (1.6.53-1deepin1) unstable; urgency=medium
 
   * Revert t64 suffix.
