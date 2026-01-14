@@ -12,10 +12,7 @@ Vcs-Git: https://salsa.debian.org/debian/libpng1.6.git
 Homepage: http://libpng.org/pub/png/libpng.html
 Rules-Requires-Root: no
 
-Package: libpng16-16t64
-Provides: ${t64:Provides}
-Replaces: libpng16-16
-Breaks: libpng16-16 (<< ${source:Version})
+Package: libpng16-16
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
@@ -30,7 +27,7 @@ Package: libpng-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, libpng16-16t64 (= ${binary:Version}), zlib1g-dev
+Depends: ${misc:Depends}, libpng16-16 (= ${binary:Version}), zlib1g-dev
 Conflicts: libpng12-0-dev, libpng12-dev, libpng2-dev, libpng3-dev
 Breaks: libpng16-dev (<< 1.6.20-3), libpng16-devtools (<< 1.6.21-1)
 Replaces: libpng16-dev (<< 1.6.20-3), libpng16-devtools (<< 1.6.21-1)
@@ -46,7 +43,7 @@ Package: libpng-tools
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: ${shlibs:Depends}, ${misc:Depends}, libpng16-16t64 (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpng16-16 (= ${binary:Version})
 Breaks: libpng16-tools (<< 1.6.21-1)
 Replaces: libpng16-tools (<< 1.6.21-1)
 Description: PNG library - tools (version 1.6)
