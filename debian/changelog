@@ -1,3 +1,9 @@
+libpng1.6 (1.6.53-1deepin3) unstable; urgency=medium
+
+  * chore: Update version to 1.6.53-1deepin3
+
+ -- zhanghongyuan <zhanghongyuan@uniontech.com>  Thu, 22 Jan 2026 16:04:32 +0800
+
 libpng1.6 (1.6.53-1deepin2) unstable; urgency=medium
 
   * Security fix from upstream:
